@@ -12,7 +12,7 @@ public class TranslateV3 : MonoBehaviour
     void Start()
     {
         HttpClient h = new HttpClient();
-        TranslateAsync().Wait();
+        //TranslateAsync().Wait();
 
         Console.ReadKey();
     }
@@ -39,15 +39,15 @@ public class TranslateV3 : MonoBehaviour
 
 
 
-    static void Main(string[] args)
+    //static void Main(string[] args)
 
-    {
+    //{
 
-        TranslateAsync().Wait();
+    //    TranslateAsync().Wait();
 
-        Console.ReadKey();
+    //    Console.ReadKey();
 
-    }
+    //}
 
 
 
