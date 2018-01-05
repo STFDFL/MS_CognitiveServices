@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 300}
+  m_MinSize: {x: 950, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -228,8 +228,8 @@ MonoBehaviour:
     y: 0
     width: 548
     height: 596
-  m_MinSize: {x: 204, y: 221}
-  m_MaxSize: {x: 4004, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -448,9 +448,9 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -0.6268935, y: 0.32544518, z: 0.45477343}
+    m_Target: {x: -3.156169, y: 1.7338853, z: 4.733046}
     speed: 2
-    m_Value: {x: -0.6268935, y: 0.32544518, z: 0.45477343}
+    m_Value: {x: -3.156169, y: 1.7338853, z: 4.733046}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -473,9 +473,9 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.08853551, y: 0.8867274, z: -0.1906775, w: -0.4117261}
+    m_Target: {x: -0.0880378, y: 0.7566095, z: -0.104162484, w: -0.6394855}
     speed: 2
-    m_Value: {x: -0.0885355, y: 0.8867273, z: -0.19067746, w: -0.41172603}
+    m_Value: {x: -0.0880378, y: 0.7566095, z: -0.10416248, w: -0.6394855}
   m_Size:
     m_Target: 10
     speed: 2
@@ -561,13 +561,13 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: D:\nsquared\Repositories\MS_CognitiveServices\MS_CognitiveServices
+  m_LastProjectPath: D:\Admin\Documents\GitHub Repositories\MS_Cognitive_Services\MS_CognitiveServices
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 28290000
-    m_LastClickedID: 10536
-    m_ExpandedIDs: 00000000e628000000ca9a3bffffff7f
+    m_SelectedIDs: 92270000
+    m_LastClickedID: 10130
+    m_ExpandedIDs: 000000005027000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -595,7 +595,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000e6280000
+    m_ExpandedIDs: 0000000050270000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
