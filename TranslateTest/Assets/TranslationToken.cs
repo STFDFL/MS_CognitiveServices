@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using System.Net;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
@@ -37,10 +38,15 @@ public class TranslationToken : MonoBehaviour {
             ServicePointManager.ServerCertificateValidationCallback = MyRemoteCertificateValidationCallback;
             using (HttpWebResponse response = (HttpWebResponse)request.GetResponse())
             {
-                //here need to find token from response
-                //_authorizationToken = this.GetResponseString(response);
-                authorizationToken = response.GetResponseStream().ToString();
                 timestampWhenTokenExpires = DateTime.UtcNow.AddMinutes(8);
+
+                var responseStream = response.GetResponseStream();
+                if (responseStream != null)
+                {
+                    var reader = new StreamReader(responseStream);
+                    string receiveContent = reader.ReadToEnd();
+                    reader.Close();
+                }
             }
         }
         catch (Exception e)
